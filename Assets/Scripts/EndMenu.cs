@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class EndMenu : MonoBehaviour {
 
     private string Menu = "Start Menu";
+
+    void Start() {
+        Cursor.visible = true;
+        Screen.lockCursor = false;
+    }
+
     
     public void RetryGame() {
         

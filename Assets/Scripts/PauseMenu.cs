@@ -11,6 +11,9 @@ public class PauseMenu : MonoBehaviour {
     private string Menu = "Start Menu";
 
     void Update() {
+        Cursor.visible = true;
+        Screen.lockCursor = false;
+
         if (Input.GetKeyDown(KeyCode.Escape)) {
 
             if (GameIsPaused) {
