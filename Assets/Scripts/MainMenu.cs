@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-    public string URL = "https://github.com/nikiandy/EatMan2.1";
+    public string URL = "https://github.com/B00155567/EatMan";
     
     public void PlayGame() {
         
